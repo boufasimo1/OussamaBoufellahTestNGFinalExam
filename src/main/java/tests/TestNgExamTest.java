@@ -21,7 +21,7 @@ public class TestNgExamTest {
 	public void addCategoryTest () {
 		
 		TestNGExamPage page = PageFactory.initElements(driver, TestNGExamPage.class);
-		String categoryInput = "bf20ss8121";// input shouldn't be on the category list
+		String categoryInput = "TechfiosBoufa";// input shouldn't be on the category list
 	page.addCategory(categoryInput);
 	page.clickOnAddCategoryButton();
 	page.verifyCategoryadded(categoryInput);
@@ -34,7 +34,7 @@ public class TestNgExamTest {
 		
 		TestNGExamPage page = PageFactory.initElements(driver, TestNGExamPage.class);
 		
-	String categoryInput = "kf85ss121";// input shouldn't be on the category list
+	String categoryInput = "TechfiosBoufa2";// input shouldn't be on the category list
 	page.addCategory(categoryInput);
 	page.clickOnAddCategoryButton();
 	page.addCategory(categoryInput);

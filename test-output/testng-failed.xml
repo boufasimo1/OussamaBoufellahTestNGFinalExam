@@ -5,7 +5,9 @@
     <classes>
       <class name="tests.TestNgExamTest">
         <methods>
+          <include name="noDuplicateCategoryTest"/>
           <include name="verifyAllMonthsExistOnTheDropListTest"/>
+          <include name="addCategoryTest"/>
           <include name="beforetest"/>
         </methods>
       </class> <!-- tests.TestNgExamTest -->

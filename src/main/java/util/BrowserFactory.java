@@ -18,11 +18,14 @@ public class BrowserFactory {
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		System.out.println("hi");
+		System.out.println("boufa");
 		return driver;
 	}
 	
 	public static void teardown () {
 		
-		driver.close();
+//		driver.close();
 		driver.quit();
 	}}
