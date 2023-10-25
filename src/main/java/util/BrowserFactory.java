@@ -21,7 +21,7 @@ public class BrowserFactory {
 		
 		System.out.println("hi");
 		System.out.println("boufa");
-		System.out.println("amine");
+		
 		return driver;
 	}
 	
