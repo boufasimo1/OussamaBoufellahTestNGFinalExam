@@ -31,7 +31,7 @@ public class TestNgExamTest {
 	
 	@Test
 	public void noDuplicateCategoryTest () {
-		System.out.println("242424241");
+		System.out.println("hello boufa");
 		
 		TestNGExamPage page = PageFactory.initElements(driver, TestNGExamPage.class);
 		
